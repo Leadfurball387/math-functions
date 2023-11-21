@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="log_func.cpp" />
     <ClCompile Include="nth_bernoulli.cpp" />
     <ClCompile Include="polynomial.cpp" />
   </ItemGroup>
