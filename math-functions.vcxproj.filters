@@ -24,5 +24,14 @@
     <ClCompile Include="log_func.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="fizzbuzz.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="count.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="count_by.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

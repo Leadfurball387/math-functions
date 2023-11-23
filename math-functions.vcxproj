@@ -127,6 +127,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="count.cpp" />
+    <ClCompile Include="count_by.cpp" />
+    <ClCompile Include="fizzbuzz.cpp" />
     <ClCompile Include="log_func.cpp" />
     <ClCompile Include="nth_bernoulli.cpp" />
     <ClCompile Include="polynomial.cpp" />
