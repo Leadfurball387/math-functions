@@ -131,8 +131,10 @@
     <ClCompile Include="count_by.cpp" />
     <ClCompile Include="fizzbuzz.cpp" />
     <ClCompile Include="log_func.cpp" />
+    <ClCompile Include="lowest_divisor.cpp" />
     <ClCompile Include="nth_bernoulli.cpp" />
     <ClCompile Include="polynomial.cpp" />
+    <ClCompile Include="prime_factorization.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

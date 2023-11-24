@@ -33,5 +33,11 @@
     <ClCompile Include="count_by.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="lowest_divisor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="prime_factorization.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
