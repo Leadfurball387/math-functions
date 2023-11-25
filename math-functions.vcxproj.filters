@@ -39,5 +39,8 @@
     <ClCompile Include="prime_factorization.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="even_fibonacci.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

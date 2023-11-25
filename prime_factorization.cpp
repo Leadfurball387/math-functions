@@ -1,31 +1,45 @@
-// DOES NOT WORK
+// DOES NOT WORK WELL
 
 #include <iostream>
 #include <cmath>
 #include <vector>
 
 
+bool is_prime(long long n) {
+	for (int i = 2; i <= sqrt(n); i++) {
+		if (n % i == 0) {
+			return false;
+			break;
+		}
+	}
+
+	return true;
+}
+
+
 void prime_fact(long long n) {
 
 	std::vector<int> factors{};
+	int pair;
 
-	for (int i = 2; i <= n/2; i++) {
-		if (n % i == 0) {
-			
-			// If n=18, this prints 9, which is not prime factorization.
-			n = n / i;
-			//std::cout << n << '\n';
+	for (int i = 2; i <= sqrt(n) + 1; i++) {
+		if (is_prime(i)) {
 			if (n % i == 0) {
-				factors.push_back(n);
-			}
-			else {
-				continue;
+				pair = n / i;
+				factors.push_back(i);
+				if (is_prime(pair)) {
+					factors.push_back(pair);
+				}
 			}
 		}
 	}
 
 	for (int i : factors) {
 		std::cout << i << '\n';
+	}
+
+	if (is_prime(n)) {
+		std::cout << "The number is prime.";
 	}
 
 }
