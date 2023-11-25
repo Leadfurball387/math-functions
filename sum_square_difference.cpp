@@ -1,14 +1,12 @@
 #include <iostream>
 
 
-void sum_square_difference() {
-
-	int n{ 100 };
+int sum_square_difference(int n) {
 
 	int sum{ 0 };
 	int sqr_of_sum{};
 
-	int sum_of_sqrs{0};
+	int sum_of_sqrs{ 0 };
 
 	int diff{};
 
@@ -24,13 +22,13 @@ void sum_square_difference() {
 
 	diff = sqr_of_sum - sum_of_sqrs;
 
-	std::cout << diff;
+	return diff;
 }
 
 
 int main() {
 
-	sum_square_difference();
+	sum_square_difference(10);
 
 	return 0;
 }

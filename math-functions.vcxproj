@@ -131,13 +131,19 @@
     <ClCompile Include="count_by.cpp" />
     <ClCompile Include="even_fibonacci.cpp" />
     <ClCompile Include="fizzbuzz.cpp" />
+    <ClCompile Include="highly_divisible_triangular_number.cpp" />
     <ClCompile Include="largest_palindrome_product.cpp" />
+    <ClCompile Include="largest_product_in_series.cpp" />
     <ClCompile Include="log_func.cpp" />
+    <ClCompile Include="longest_collatz_sequence.cpp" />
     <ClCompile Include="lowest_divisor.cpp" />
     <ClCompile Include="nth_bernoulli.cpp" />
+    <ClCompile Include="nth_prime.cpp" />
     <ClCompile Include="polynomial.cpp" />
     <ClCompile Include="prime_factorization.cpp" />
     <ClCompile Include="smallest_multiple.cpp" />
+    <ClCompile Include="special_pythagorean_triple.cpp" />
+    <ClCompile Include="summation_of_primes.cpp" />
     <ClCompile Include="sum_square_difference.cpp" />
   </ItemGroup>
   <ItemGroup>
