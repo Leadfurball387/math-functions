@@ -2,10 +2,19 @@
 #include <cmath>
 
 
-void solve_quadratic(float a, float b, float c) {
+void solve_quadratic() {
+	float a{}, b{}, c{};
 	float xpos{}, xneg{};
-	float discriminant = pow(b, 2) - 4 * a * c;
 
+	std::cout << "This function will solve ax^2 + bx + c = 0." << '\n';
+	std::cout << "Input your value for a: ";
+	std::cin >> a;
+	std::cout << "Input your value for b: ";
+	std::cin >> b;
+	std::cout << "Input your value for c: ";
+	std::cin >> c;
+
+	float discriminant = pow(b, 2) - 4 * a * c;
 
 	if (discriminant >= 0) {
 		xpos = (-b + sqrt(pow(b, 2) - 4 * a * c)) / (2 * a);
@@ -23,17 +32,7 @@ void solve_quadratic(float a, float b, float c) {
 
 int main() {
 
-	float a{}, b{}, c{};
-
-	std::cout << "This program will solve ax^2 + bx + c = 0." << '\n';
-	std::cout << "Input your value for a: ";
-	std::cin >> a;
-	std::cout << "Input your value for b: ";
-	std::cin >> b;
-	std::cout << "Input your value for c: ";
-	std::cin >> c;
-
-	solve_quadratic(a, b, c);
+	solve_quadratic();
 
 	return 0;
 }

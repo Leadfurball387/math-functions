@@ -1,6 +1,14 @@
 #include <iostream>
 
-void count_by(int n, int k) {
+void count_by() {
+
+	int n{};
+	int k{};
+
+	std::cout << "Input the number you would like to count to: ";
+	std::cin >> n;
+	std::cout << "Input the number you would like to count by: ";
+	std::cin >> k;
 
 
 	for (int i = 0; i <= n; i++) {
@@ -14,16 +22,8 @@ void count_by(int n, int k) {
 
 
 int main() {
-	int n{};
-	int k{};
-
-	std::cout << "Input the number you would like to count to: ";
-	std::cin >> n;
-	std::cout << "Input the number you would like to count by: ";
-	std::cin >> k;
-
-
-	count_by(n, k);
+	
+	count_by();
 
 	return 0;
 }

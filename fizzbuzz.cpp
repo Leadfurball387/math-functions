@@ -1,8 +1,11 @@
 #include <iostream>
 
-void fizzbuzz(int n) {
+void fizzbuzz() {
 
-	
+	int n{};
+
+	std::cout << "Please enter the amount of numbers you would like to fizzbuzz: ";
+	std::cin >> n;
 
 	for (int i = 1; i <= n; i++) {
 		if (i % 3 == 0 && i % 5 == 0) {
@@ -24,12 +27,7 @@ void fizzbuzz(int n) {
 
 int main() {
 
-	int n{};
-
-	std::cout << "Please enter the amount of numbers you would like to fizzbuzz: ";
-	std::cin >> n;
-
-	fizzbuzz(n);
+	fizzbuzz();
 
 	return 0;
 }

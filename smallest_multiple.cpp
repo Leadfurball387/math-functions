@@ -4,7 +4,6 @@
 
 void smallest_multiple() {
 
-
 	int d{ 20 };
 	long long n{ 1 };
 

@@ -2,9 +2,18 @@
 #include <cmath>
 
 
-void log_func(int a, int b, int c) {
+void log_func() {
 
+	int a{}, b{}, c{};
 	float x{};
+
+	std::cout << "This function will solve 'alog base b of x + c' for x." << '\n';
+	std::cout << "Input your value for a: ";
+	std::cin >> a;
+	std::cout << "Input your value for b: ";
+	std::cin >> b;
+	std::cout << "Input your value for c: ";
+	std::cin >> c;
 
 	if (b > 0 && c > 0) {
 
@@ -23,19 +32,8 @@ void log_func(int a, int b, int c) {
 
 
 int main() {
-
-	int a{}, b{}, c{};
-
-	std::cout << "This function will solve 'alog base b of x + c' for x." << '\n';
-	std::cout << "Input your value for a: ";
-	std::cin >> a;
-	std::cout << "Input your value for b: ";
-	std::cin >> b;
-	std::cout << "Input your value for c: ";
-	std::cin >> c;
-
-
-	log_func(a, b, c);
+	
+	log_func();
 
 	return 0;
 }

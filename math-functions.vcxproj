@@ -140,6 +140,9 @@
     <ClCompile Include="smallest_multiple.cpp" />
     <ClCompile Include="sum_square_difference.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="math_funcs.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
