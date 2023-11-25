@@ -131,11 +131,14 @@
     <ClCompile Include="count_by.cpp" />
     <ClCompile Include="even_fibonacci.cpp" />
     <ClCompile Include="fizzbuzz.cpp" />
+    <ClCompile Include="largest_palindrome_product.cpp" />
     <ClCompile Include="log_func.cpp" />
     <ClCompile Include="lowest_divisor.cpp" />
     <ClCompile Include="nth_bernoulli.cpp" />
     <ClCompile Include="polynomial.cpp" />
     <ClCompile Include="prime_factorization.cpp" />
+    <ClCompile Include="smallest_multiple.cpp" />
+    <ClCompile Include="sum_square_difference.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
