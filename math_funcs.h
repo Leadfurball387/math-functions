@@ -134,10 +134,6 @@ void prime_fact(long long n) {
 		std::cout << i << '\n';
 	}
 
-	if (is_prime(n)) {
-		std::cout << "The number is prime.";
-	}
-
 }
 
 // Finds the sum of all Fibonacci numbers such that the prime is less than n

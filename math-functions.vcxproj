@@ -127,9 +127,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="amicable_numbers.cpp" />
     <ClCompile Include="count.cpp" />
+    <ClCompile Include="counting_sundays.cpp" />
     <ClCompile Include="count_by.cpp" />
     <ClCompile Include="even_fibonacci.cpp" />
+    <ClCompile Include="factorial_digit_sum.cpp" />
     <ClCompile Include="fizzbuzz.cpp" />
     <ClCompile Include="highly_divisible_triangular_number.cpp" />
     <ClCompile Include="largest_palindrome_product.cpp" />
@@ -139,7 +142,9 @@
     <ClCompile Include="lowest_divisor.cpp" />
     <ClCompile Include="nth_bernoulli.cpp" />
     <ClCompile Include="nth_prime.cpp" />
+    <ClCompile Include="number_letter_counts.cpp" />
     <ClCompile Include="polynomial.cpp" />
+    <ClCompile Include="power_digit_sum.cpp" />
     <ClCompile Include="prime_factorization.cpp" />
     <ClCompile Include="smallest_multiple.cpp" />
     <ClCompile Include="special_pythagorean_triple.cpp" />
