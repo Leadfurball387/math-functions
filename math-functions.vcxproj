@@ -147,6 +147,7 @@
     <ClCompile Include="power_digit_sum.cpp" />
     <ClCompile Include="prime_factorization.cpp" />
     <ClCompile Include="smallest_multiple.cpp" />
+    <ClCompile Include="sorting_alg.cpp" />
     <ClCompile Include="special_pythagorean_triple.cpp" />
     <ClCompile Include="summation_of_primes.cpp" />
     <ClCompile Include="sum_square_difference.cpp" />
